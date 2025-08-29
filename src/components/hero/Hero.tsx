@@ -130,7 +130,7 @@ export default function Hero() {
           <div ref={taglineRef} className="text-xs uppercase tracking-[0.3em] text-gray-500 mb-6 font-medium">MNT CONSULTING</div>
           <h1 ref={headlineRef} className="text-5xl sm:text-6xl md:text-7xl font-light leading-[1.1]">
             <span>We design and build</span><br />
-            <span className="font-bold">refined digital products</span>
+            <span className="italic font-satoshi-italic">refined digital<br />products</span>
           </h1>
           <p ref={paragraphRef} className="mt-6 text-lg sm:text-xl text-gray-400 max-w-2xl font-normal">
             From AI automation and CRMs to modern websites and apps — pragmatic engineering with a refined aesthetic and enterprise-grade discipline.
