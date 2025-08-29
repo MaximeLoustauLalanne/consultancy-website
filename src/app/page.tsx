@@ -5,6 +5,13 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
+declare global {
+  interface Window {
+    ScrollToPlugin: any;
+    ScrollSmoother: any;
+  }
+}
+
 export default function Home() {
   const heroRef = useRef<HTMLDivElement>(null);
   const taglineRef = useRef<HTMLDivElement>(null);
